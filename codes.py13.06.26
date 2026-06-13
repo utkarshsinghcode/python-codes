@@ -1,0 +1,295 @@
+# ques1
+num1 = int(input())
+num2 = int(input())
+
+sum = num1 + num2
+print(sum)
+
+#ques2
+num1 = int(input())
+num2 = int(input())
+
+multiply = num1 * num2
+print(multiply)
+
+#ques 3
+num1 = int(input())
+num2 = int(input())
+
+divide = num1 / num2
+print(divide)
+
+#ques 4 
+a = 12
+b = 3 
+
+print(a*b)
+
+#ques 5
+x = 40
+y = 8
+
+print(x/y) 
+
+#ques6
+num1 = 100
+num2 = 200
+
+print(num1 + num2)
+
+#ques7
+length = 5 
+width = 4
+area = length * width
+print(area)
+
+#ques 8
+num_of_books = 6
+price_each = 30
+
+total_cost = num_of_books * price_each
+print(total_cost)
+
+#ques 9 
+a = 72 
+b = 8 
+
+print(a/b)
+
+#ques 10 
+a = 10 
+b = 20 
+c = 30 
+sum = a+b+c 
+
+print(sum)
+
+       #** next 10 **#
+
+#ques 11
+
+num1 = int(input())
+num2 = int(input())
+
+sum = num1 + num2
+multiply = num1 * num2
+divide = num1 / num2
+
+print(sum)
+print(multiply)
+print(divide)
+
+# #ques 12
+
+length = float(input())
+width = float(input())
+
+area = length * width
+perimeter = 2 * (length + width)
+
+print(area)
+print(perimeter)
+
+#ques 13
+num1 = int(input())
+num2 = int(input())
+num3 = int(input())
+
+sum = (num1 + num2 + num3 )
+print(sum)
+
+#ques 14
+num1 = int(input())
+
+square = (num1)**2
+cube = (num1)**3
+
+print(square)
+print(cube)
+
+#ques 15
+
+sub1 = float(input("enter your marks: "))
+sub2 = float(input("enter your marks: "))
+sub3 = float(input("enter your marks: "))
+sub4 = float(input("enter your marks: "))
+sub5 = float(input("enter your marks: "))
+
+total_marks  = sub1 + sub2 + sub3 + sub4 + sub5
+
+print(total_marks)
+
+#ques 16
+quantity = int(input("num of books: "))
+price = int(input("enter price: "))
+
+total_bill = quantity * price
+
+print(total_bill)
+
+#ques17 
+salary = int(input("enetr your salary: "))
+new_salary = salary + 5000
+
+print(new_salary)
+
+#ques 18
+distance = float(input("enter distance in KM: ")) 
+time = float(input("enter time in hours: "))
+
+speed = distance / time
+print(speed)
+
+#ques19
+num1 = int(input())
+num2 = int(input())
+num3 = int(input())
+num4 = int(input())
+
+sum = num1 + num2 + num3 + num4
+avreage = (num1 + num2 + num3 + num4 ) / 4
+print(avreage)
+
+#ques20
+name = input("enter name: ")
+age = int(input("enter age : "))
+
+print(name)
+print(age)
+
+#** next ques**#
+#ques 21 
+age = int(input("enter age: "))
+if age >= 18:
+    print("adult")
+else:
+    print("minor")
+
+
+#ques22
+num = int(input())
+if num >= 0:
+    print("positive")
+else:
+    print("negative")
+
+#ques23
+marks = int(input())
+if marks >= 40:
+    print("pass")
+else:
+    print("fail")
+
+#ques24
+name = input("enter name: ")
+if name == "utkarsh":
+    print("welcome") 
+else:
+    print("access denied") 
+
+#ques 25
+password = input("enter the password: ")
+
+if password == "python123":
+    print("login successful")
+else:
+    print("wrong password")
+
+#ques26
+num1 = int(input())
+num2 = int(input())
+
+if num1 > num2:
+    print(num1)
+else:
+    print(num2)
+
+#ques27
+tempreature = int(input())
+if tempreature > 30 :
+    print("hot")
+else:
+    print("cool")
+
+#ques 28
+salary = int(input())
+if salary >= 50000:
+    print("high salary")
+else:
+    print("low salary")
+
+#ques 29
+word = input("enter a word: ")
+
+if word =="python":
+    print("correct")
+else:
+    print("incorrect")
+
+#ques30
+age = int(input("enter your age: "))
+marks = float(input("enter your marks: "))    
+
+if marks >= 40 and age >= 18:
+    print("eligible")
+else:
+    print("not eligible")
+#** next questions**#
+#ques31
+for i in range(1,11):
+    print(i)
+
+#ques32
+for i in range(2,21,2):
+    print(i) 
+
+#ques33
+for i in range(1,21,2):
+    print(i)
+   
+#ques34
+num = int(input())
+for i in range(1,11):
+    table = num * i
+    print(table)
+    i += 1
+
+#ques35
+sum = 0
+for i in range(1,101):
+    sum = sum + i
+    i += 1
+print(sum)
+
+#ques36
+n = int(input())
+sum = 0
+for i in range(1,n+1):
+     sum = sum + i
+print(sum)
+
+#ques37
+n = int(input())
+
+for i in range(2,n+1,2):
+    print(i)
+
+#qs38
+for i in range(1,21):
+    if i > 5 :
+        print("Big")
+    else:
+        print(i)     
+#ques39
+n = int(input())
+factorial = 1
+for i in range(1,n+1):
+    factorial = factorial * i
+    i = i-1
+
+print(factorial)
+
+# ques 40
+for i in range(1,51):
+    if i % 3 == 0:
+        print(i)
