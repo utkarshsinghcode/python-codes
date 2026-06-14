@@ -1,0 +1,59 @@
+#ques1
+n = int(input())
+sum = 0
+
+for i in range(1,n+1):
+    sum = sum + i
+    
+print(sum)
+avg = (sum / n)
+print(avg)
+
+#ques2 
+n = int(input())
+sum = 0
+for i in range(1,n+1):
+    if i % 2 == 0:
+        sum = sum  + i
+    else:
+        i += 1
+print(sum)
+
+#ques 3
+n = int(input())
+
+if n > 0 :
+    print("positive")
+elif n < 0:
+    print("negative")
+else:
+    print("zero")
+
+#ques 4
+marks = int(input("enter your marks : "))
+if marks >= 90:
+    print("excellent")
+elif marks < 90 and marks >= 75:
+    print("good")
+elif marks <= 74 and marks >= 40:
+    print("pass")
+else:
+    print("fail")
+
+#ques 5 
+n  = int(input())  
+for i in range(1,n+1):
+    if n % i == 0:
+        print("factors:",i ) 
+
+#ques 6
+n = int(input())
+count_even = 0
+count_odd = 0
+for i in range(1,n+1):
+    if i % 2 == 0:
+        count_even = count_even + 1
+    elif i % 2 != 0:
+        count_odd = count_odd + 1
+print(count_even)
+print(count_odd)
