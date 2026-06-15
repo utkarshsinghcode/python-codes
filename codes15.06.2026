@@ -145,3 +145,61 @@ for i in nums:
         smallest = i
 
 print(smallest)
+
+# ques21
+nums = [10, 25, 8, 40, 13, 6]
+count_even = 0
+count_odd = 0
+
+for i in nums:
+    if i % 2 == 0:
+        count_even += 1
+    elif i % 2 != 0:
+        count_odd += 1
+
+print(count_even)
+print(count_odd)
+
+# ques22
+nums = [12, 7,  25, 18, 3]
+sum = 0
+ 
+for i in  nums:
+    if i % 2 != 0:
+        sum = sum + i
+
+print(sum)
+
+# ques23 
+nums = [10, 20, 30, 40, 50]
+
+largest = nums[0]
+smallest = nums[0]
+
+for i in nums:
+    if i > largest:
+        largest = i
+    elif i < smallest:
+        smallest = i
+
+diffrence = largest - smallest
+print(diffrence)
+
+# ques24
+num = [5, 10,  15, 20, 25, 30]
+
+for i in num:
+    if i > 10 and i % 2 == 0:
+        print(i)
+
+#ques25
+num = [2, 4, 6, 8]
+
+square = 1
+sum = 0
+
+for i in num:
+    square = i ** 2
+    sum = sum + square
+
+print(sum)
