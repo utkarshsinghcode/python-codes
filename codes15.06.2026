@@ -1,0 +1,58 @@
+# ques1
+nums = [10, 20, 30, 40]
+print(nums)
+
+# ques2
+nums1 = [20, 30, 45, 56]
+print(nums1[0])
+
+# ques3
+nums2 = [223, 255, 45, 569, 4895]
+print(len(nums2))
+
+# ques4
+num3 = [12, 23, 25, 569, 0]
+print(num3[-1])
+
+# ques5
+num = [25, 45, 78, 965, 451]
+for i in num:
+    print(i)
+
+# ques6
+num12 = [25, 45, 78, 965, 451]
+sum = 0
+
+for i in num12:
+    sum = sum + i
+
+print(sum)
+
+# ques7
+num7 = [30, 54 , 56 , 878 , 20]
+
+print(30 in num7)
+
+# ques8
+num_list = [2, 45 ,46, 78, 87,1064 ]
+
+for i in num_list:
+    if i % 2 == 0:
+        print(i)
+
+# ques9
+num_list2 = [3,56,65,89,723,453]
+
+for i in num_list2:
+    if i % 2 != 0:
+         print(i)
+
+# ques10
+num_list3 = [12,24,56,23,14,785]
+
+largest = num_list3[0]
+
+for i in num_list3:
+    if i > largest:
+        largest = i
+print(largest)
